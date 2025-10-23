@@ -1,4 +1,4 @@
-# 🧫 Medical Visualizations  
+# 💊 Medical Visualizations  
 [![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org) [![Platform](https://img.shields.io/badge/iOS-17.0-brightgreen.svg)](https://developer.apple.com/ios/) [![Framework](https://img.shields.io/badge/SwiftUI-Framework-blueviolet.svg)](https://developer.apple.com/xcode/swiftui/) [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
 **MedicalVisualizationsApp** is an interactive **SwiftUI** project that brings complex biomedical phenomena to life through **real-time, animated scientific visualizations**.  
