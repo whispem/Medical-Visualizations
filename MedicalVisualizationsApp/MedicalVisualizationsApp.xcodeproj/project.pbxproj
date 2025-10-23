@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A800907E2EAA292D00C2B66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80090652EAA292C00C2B66C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A800906C2EAA292C00C2B66C;
+			remoteInfo = MedicalVisualizationsApp;
+		};
+		A80090882EAA292D00C2B66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80090652EAA292C00C2B66C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A800906C2EAA292C00C2B66C;
+			remoteInfo = MedicalVisualizationsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A800906D2EAA292C00C2B66C /* MedicalVisualizationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalVisualizationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A800907D2EAA292D00C2B66C /* MedicalVisualizationsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalVisualizationsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80090872EAA292D00C2B66C /* MedicalVisualizationsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalVisualizationsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A800906F2EAA292C00C2B66C /* MedicalVisualizationsApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MedicalVisualizationsApp;
+			sourceTree = "<group>";
+		};
+		A80090802EAA292D00C2B66C /* MedicalVisualizationsAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MedicalVisualizationsAppTests;
+			sourceTree = "<group>";
+		};
+		A800908A2EAA292D00C2B66C /* MedicalVisualizationsAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MedicalVisualizationsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A800906A2EAA292C00C2B66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A800907A2EAA292D00C2B66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80090842EAA292D00C2B66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80090642EAA292C00C2B66C = {
+			isa = PBXGroup;
+			children = (
+				A800906F2EAA292C00C2B66C /* MedicalVisualizationsApp */,
+				A80090802EAA292D00C2B66C /* MedicalVisualizationsAppTests */,
+				A800908A2EAA292D00C2B66C /* MedicalVisualizationsAppUITests */,
+				A800906E2EAA292C00C2B66C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A800906E2EAA292C00C2B66C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A800906D2EAA292C00C2B66C /* MedicalVisualizationsApp.app */,
+				A800907D2EAA292D00C2B66C /* MedicalVisualizationsAppTests.xctest */,
+				A80090872EAA292D00C2B66C /* MedicalVisualizationsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A800906C2EAA292C00C2B66C /* MedicalVisualizationsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80090912EAA292D00C2B66C /* Build configuration list for PBXNativeTarget "MedicalVisualizationsApp" */;
+			buildPhases = (
+				A80090692EAA292C00C2B66C /* Sources */,
+				A800906A2EAA292C00C2B66C /* Frameworks */,
+				A800906B2EAA292C00C2B66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A800906F2EAA292C00C2B66C /* MedicalVisualizationsApp */,
+			);
+			name = MedicalVisualizationsApp;
+			packageProductDependencies = (
+			);
+			productName = MedicalVisualizationsApp;
+			productReference = A800906D2EAA292C00C2B66C /* MedicalVisualizationsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A800907C2EAA292D00C2B66C /* MedicalVisualizationsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80090942EAA292D00C2B66C /* Build configuration list for PBXNativeTarget "MedicalVisualizationsAppTests" */;
+			buildPhases = (
+				A80090792EAA292D00C2B66C /* Sources */,
+				A800907A2EAA292D00C2B66C /* Frameworks */,
+				A800907B2EAA292D00C2B66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A800907F2EAA292D00C2B66C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A80090802EAA292D00C2B66C /* MedicalVisualizationsAppTests */,
+			);
+			name = MedicalVisualizationsAppTests;
+			packageProductDependencies = (
+			);
+			productName = MedicalVisualizationsAppTests;
+			productReference = A800907D2EAA292D00C2B66C /* MedicalVisualizationsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A80090862EAA292D00C2B66C /* MedicalVisualizationsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80090972EAA292D00C2B66C /* Build configuration list for PBXNativeTarget "MedicalVisualizationsAppUITests" */;
+			buildPhases = (
+				A80090832EAA292D00C2B66C /* Sources */,
+				A80090842EAA292D00C2B66C /* Frameworks */,
+				A80090852EAA292D00C2B66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80090892EAA292D00C2B66C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A800908A2EAA292D00C2B66C /* MedicalVisualizationsAppUITests */,
+			);
+			name = MedicalVisualizationsAppUITests;
+			packageProductDependencies = (
+			);
+			productName = MedicalVisualizationsAppUITests;
+			productReference = A80090872EAA292D00C2B66C /* MedicalVisualizationsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80090652EAA292C00C2B66C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A800906C2EAA292C00C2B66C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A800907C2EAA292D00C2B66C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A800906C2EAA292C00C2B66C;
+					};
+					A80090862EAA292D00C2B66C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A800906C2EAA292C00C2B66C;
+					};
+				};
+			};
+			buildConfigurationList = A80090682EAA292C00C2B66C /* Build configuration list for PBXProject "MedicalVisualizationsApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80090642EAA292C00C2B66C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A800906E2EAA292C00C2B66C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A800906C2EAA292C00C2B66C /* MedicalVisualizationsApp */,
+				A800907C2EAA292D00C2B66C /* MedicalVisualizationsAppTests */,
+				A80090862EAA292D00C2B66C /* MedicalVisualizationsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A800906B2EAA292C00C2B66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A800907B2EAA292D00C2B66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80090852EAA292D00C2B66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80090692EAA292C00C2B66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80090792EAA292D00C2B66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80090832EAA292D00C2B66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A800907F2EAA292D00C2B66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A800906C2EAA292C00C2B66C /* MedicalVisualizationsApp */;
+			targetProxy = A800907E2EAA292D00C2B66C /* PBXContainerItemProxy */;
+		};
+		A80090892EAA292D00C2B66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A800906C2EAA292C00C2B66C /* MedicalVisualizationsApp */;
+			targetProxy = A80090882EAA292D00C2B66C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A800908F2EAA292D00C2B66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80090902EAA292D00C2B66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80090922EAA292D00C2B66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedicalVisualizationsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Em-.MedicalVisualizationsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80090932EAA292D00C2B66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedicalVisualizationsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Em-.MedicalVisualizationsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A80090952EAA292D00C2B66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Em-.MedicalVisualizationsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicalVisualizationsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedicalVisualizationsApp";
+			};
+			name = Debug;
+		};
+		A80090962EAA292D00C2B66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Em-.MedicalVisualizationsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicalVisualizationsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedicalVisualizationsApp";
+			};
+			name = Release;
+		};
+		A80090982EAA292D00C2B66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Em-.MedicalVisualizationsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicalVisualizationsApp;
+			};
+			name = Debug;
+		};
+		A80090992EAA292D00C2B66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Em-.MedicalVisualizationsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicalVisualizationsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80090682EAA292C00C2B66C /* Build configuration list for PBXProject "MedicalVisualizationsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A800908F2EAA292D00C2B66C /* Debug */,
+				A80090902EAA292D00C2B66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80090912EAA292D00C2B66C /* Build configuration list for PBXNativeTarget "MedicalVisualizationsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80090922EAA292D00C2B66C /* Debug */,
+				A80090932EAA292D00C2B66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80090942EAA292D00C2B66C /* Build configuration list for PBXNativeTarget "MedicalVisualizationsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80090952EAA292D00C2B66C /* Debug */,
+				A80090962EAA292D00C2B66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80090972EAA292D00C2B66C /* Build configuration list for PBXNativeTarget "MedicalVisualizationsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80090982EAA292D00C2B66C /* Debug */,
+				A80090992EAA292D00C2B66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80090652EAA292C00C2B66C /* Project object */;
+}
